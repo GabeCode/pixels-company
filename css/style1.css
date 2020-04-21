@@ -1,11 +1,11 @@
 nav {
-   background-color: #2A2A28;
-   height: 70px;
-   position: fixed;
-   z-index: 100;
+   background-color: #2A2A28 !important;
+   height: 70px !important;
+   position: fixed !important;
+   z-index: 100 !important;
    top: 0;
    left: 0;
-   width: 100%;
+   width: 100% !important;
  }
  .topbar-section {
    float: left;
