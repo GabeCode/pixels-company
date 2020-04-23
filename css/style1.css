@@ -1,12 +1,11 @@
+
 nav {
-   background-color: #2A2A28 !important;
-   height: 70px !important;
-   position: fixed !important;
-   z-index: 100 !important;
-   top: 0;
-   left: 0;
-   width: 100% !important;
+   background-color: #272727;
  }
+ nav ul li:hover{
+   background-color: #616161;
+ }
+ 
  .topbar-section {
    float: left;
    height: 100%;
@@ -32,11 +31,7 @@ a {
    background-color: #272727;
    font-family: Helvetica, Arial, sans-serif;
  }
- nav ul {
-   width: 900px;
-   margin: auto;
-   background-color: red;
- }
+
 
  #logo{
    width: 100px;
@@ -135,12 +130,8 @@ a {
  h3 {
    font-size: 13px;
  }
- p {
-   font-size: 11px;
- }
  #Servicios{
-   padding-top: 65px;
-   margin-top: 70px;
+   padding-top: 20px;
    background-color: #272727;
  }
  #cuerpo {
@@ -168,93 +159,25 @@ a {
      height: 100%;
      float: right;
  }
- #servicios-img-1 {
+ .servicios-img-1 {
    width: 100%;
  }
  .justificado{
    text-align: justify;
  }
  .ver-portafolio-2 {
-   width: 200px;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
    padding: 2px 5px;
-   border: 3px solid white;
+   border: 3px solid #4db6ac;
    font-weight: 400;
    font-size: 120%;
+   color: white;
  }
- #Precios {
-   padding-top: 100px;
-   background-image: url("../imagenes/precio.jpg");
-   background-position: top;
-   width: 100%;
-   height: 600px;
- }
- #cuerpo-2 {
-     margin: 45px auto 0 auto;
-     width: 1100px;
-     height: 450px;
-     position: relative;
- }
- .padding-txt{
-    padding: 10px 30px;
- }
- #izquierda-2 {
-     margin: 5% 50px;
-     border-color: white;
-     width: 300px;
-     height: 80%;
-     border-radius: 15%;
-     border: 2px;
-     background-color: #353535;
-     float: left;
- }
- #centro-2 {
-     width: 300px;
-     height: 100%;
-     border-radius: 15%;
-     background-color: #353535;
-     float: left;
- }
- #derecha-2 {
-     margin: 5% 50px;
-     width: 300px;
-     height: 80%;
-     border-radius: 15%;
-     background-color: #353535;
-     float: right;
- }
- #cuerpo-3 {
-     margin: 0 auto;
-     width: 800px;
-     height: 50px;
-     position: relative;
-     display: none;
- }
- #izquierda-3 {
-     margin: 0 50px;
-     width: 200px;
-     height: 100%;
-     background-color: #2A2A28;
-     float: left;
- }
- #centro-3{
-     width: 200px;
-     height: 100%;
-     background-color: #2A2A28;
-     float: left;
- }
- #derecha-3 {
-     margin: 0 50px;
-     width: 200px;
-     height: 100%;
-     background-color: #2A2A28;
-     float: right;
- }
- .centrar-texto{
-   text-align: center;
- }
+
+ 
  .alinear-texto-izquierda {
    text-align: left;
  }
@@ -262,9 +185,12 @@ a {
    margin: 18px auto;
  }
  #Nosotros {
-   padding-top: 100px;
+   padding-top: 50px;
    width: 100%;
    height: 450px;
+ }
+ #Precios{
+   padding-top: 50px;
  }
  #cuerpo-nosotros {
      margin: 60px auto 0 auto;
@@ -279,14 +205,10 @@ a {
  }
 #leer-mas {
   width: 100px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   padding: 10px 5px;
-  border-top: 5px solid white;
-  font-weight: 400;
-  font-size: 120%;
+  border-bottom: 4px solid red;
+  font-weight: 300;
+  color: white;
 }
 #Banner {
   padding-top: 100px;
@@ -300,4 +222,17 @@ a {
   padding-top: 100px;
   width: 100%;
   height: 300px;
+}
+.outter-price {
+ height: 400px;
+ margin-top: 30px;
+}
+.middle-price {
+  height: 460px;
+  -webkit-box-shadow: -13px 17px 18px -2px rgba(10,10,10,0.75);
+  -moz-box-shadow: -13px 17px 18px -2px rgba(10,10,10,0.75);
+  box-shadow: -13px 17px 18px -2px rgba(10,10,10,0.75);
+}
+.active-tab{
+  border-bottom: 2px solid red;
 }
