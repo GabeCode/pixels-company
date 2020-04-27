@@ -16,7 +16,8 @@
       <div class="navbar-fixed">
             <nav class="grey darken-4">
                   <div class="nav-wrapper">
-                        <a href="#" class="brand-logo"><img src="imagenes/logo.png"></a>
+                        <a href="#" class="brand-logo"><img id="logo" src="imagenes/logo.png"></a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                               <li><a class="active-tab" href="#Home">HOME</a></li>
                               <li><a href="#Servicios">NUESTROS SERVICIOS</a>
@@ -28,6 +29,14 @@
                   </div>
             </nav>
       </div>
+      <ul class="sidenav" id="mobile-nav">
+            <li><a href="#Home" class="active-tab">HOME</a></li>
+            <li><a href="#Servicios">NUESTROS SERVICIOS</a>
+            <li><a href="">PORTAFOLIO</a></li>
+            <li><a href="#Precios">PRECIO</a></li>
+            <li><a href="#Nosotros">NOSOTROS</a></li>
+            <li><a href="#Contacto">CONTACTO</a></li>
+      </ul>
       <div class="">
             <div id="Home" class="slider">
                   <ul class="slides">
@@ -234,6 +243,7 @@
                   showInfo();
                   $('.parallax').parallax();
                   $('.scrollspy').scrollSpy();
+                  $('.sidenav').sidenav();
             });
             function showInfo() {
                   var result = window.innerHeight - 120;
